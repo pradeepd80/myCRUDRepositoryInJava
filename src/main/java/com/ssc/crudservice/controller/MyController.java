@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyController {
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello String";
+		return "This is the Restcontroller test service.";
 	}
 }
